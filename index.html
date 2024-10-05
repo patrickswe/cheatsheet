@@ -8,74 +8,126 @@
   <body>
     <header>
       <h1>HTML Cheatsheet</h1>
-      <nav>
-        <section class="wrapper">
-          <h2>Semantic Document and Website structure Tags</h2>
-          <table>
-            <thead>
-              <tr>
-                <th rowspan="1">Tag</th>
-                <th rowspan="3">Name</th>
-                <th rowspan="12">Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>< header ></td>
-                <td>Header</td>
-                <td>
-                  Usually a big strip across the top with a big heading, logo,
-                  and perhaps a tagline. This usually stays the same from one
-                  webpage to another.
-                </td>
-              </tr>
-              <tr>
-                <td>< nav ></td>
-                <td>Navigation bar</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-            <tfoot></tfoot>
-          </table>
-        </section>
-      </nav>
     </header>
-    <main></main>
+    <nav></nav>
+    <main>
+      <section class="wrapper">
+        <h2>Semantic Document and Website structure Tags</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;html&gt</td>
+              <td>html</td>
+              <td>
+                represents the root (top-level element) of an HTML document, so
+                it is also referred to as the root element. All other elements
+                must be descendants of this element. There can be only one
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;head&gt</td>
+              <td>head</td>
+              <td>
+                contains machine-readable information (metadata) about the
+                document, like its title, scripts, and style sheets. There can
+                be only one
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;body&gt</td>
+              <td>body</td>
+              <td>
+                represents the content of an HTML document. There can be only
+                one
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;header&gt;</td>
+              <td>Header</td>
+              <td>
+                Usually a big strip across the top with a big heading, logo, and
+                perhaps a tagline. This usually stays the same from one webpage
+                to another.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;nav&gt;</code></td>
+              <td>Navigation</td>
+              <td>
+                represents a section of a page whose purpose is to provide
+                navigation links, either within the current document or to other
+                documents. Common examples of navigation sections are menus,
+                tables of contents, and indexes.
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;main&gt;</td>
+              <td>main</td>
+              <td>
+                represents the dominant content of the body. The main content
+                area consists of content that is directly related to or expands
+                upon the central topic of a document, or the central
+                functionality of an application.
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;article&gt;</td>
+              <td>article</td>
+              <td>
+                represents a self-contained composition in a document, page,
+                application, or site, which is intended to be independently
+                distributable or reusable (e.g., in syndication). Examples
+                include: a forum post, a magazine or newspaper article,
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;section&gt;</td>
+              <td>section</td>
+              <td>
+                a generic standalone section of a document, which doesn't have a
+                more specific semantic element to represent it. Sections should
+                always have a heading, with very few exceptions.
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;div&gt;</td>
+              <td>div</td>
+              <td>
+                generic container for flow content. It has no effect on the
+                content or layout until styled in some way using CSS
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;aside&gt;</td>
+              <td>aside</td>
+              <td>
+                represents a portion of a document whose content is only
+                indirectly related to the document's main content. Asides are
+                frequently presented as sidebars or call-out boxes.
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;footer&gt;</td>
+              <td>footer</td>
+              <td>
+                represents a footer for its nearest ancestor sectioning content
+                or sectioning root element. typically contains information about
+                the author of the section, copyright data or links to related
+                documents.
+              </td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
