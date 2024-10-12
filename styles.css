@@ -1,0 +1,71 @@
+/*positioning*/
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*spacing*/
+table {
+  table-layout: fixed; /*this means columns can be sized according to the width of their headings*/
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #696969;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 60%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+tr {
+  min-height: 40px;
+  max-height: 40px;
+}
+/* typography */
+
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+header h1 {
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+}
+
+thead th {
+  font-family: "Rock Salt", cursive;
+  color: white;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+thead th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+/*background color*/
+thead {
+  background: linear-gradient(to right, #444444, #000080);
+  opacity: 0.7;
+}
